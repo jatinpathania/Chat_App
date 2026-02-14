@@ -1,0 +1,135 @@
+/* Auth Pages - Advanced Black & White Design */
+
+/* Form Input Styling */
+.auth-input {
+  width: calc(100% - 40px);
+  padding: 12px 20px;
+  background-color: #ffffff !important;
+  border: none;
+  border-bottom: 2px solid #d1d5db;
+  border-radius: 0;
+  color: #000000 !important;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+
+.auth-input:hover {
+  border-bottom-color: #9ca3af;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-bottom-color: #000000;
+  background-color: #f9fafb !important;
+  box-shadow: none;
+}
+
+.auth-input::placeholder {
+  color: #9ca3af !important;
+  font-weight: 400;
+}
+
+.auth-input:focus::placeholder {
+  color: #bfdbfe;
+}
+
+/* Form Label Styling */
+.auth-form-label {
+  display: block;
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+/* Form Group Styling */
+.auth-form-group {
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.auth-btn {
+  width: 100%;
+  padding: 14px 24px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.auth-btn:hover {
+  background-color: #1f2937;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.auth-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Form Container */
+.auth-form-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Link Styling */
+.auth-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.auth-link:hover {
+  color: #4b5563;
+  border-bottom-color: #000000;
+}
+
+/* Divider */
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: #e5e7eb;
+}
+
+/* Text styling */
+.auth-text-muted {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.auth-text-accent {
+  color: #000000;
+  font-weight: 600;
+}
